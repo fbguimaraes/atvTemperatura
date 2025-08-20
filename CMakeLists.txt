@@ -37,7 +37,7 @@ pico_sdk_init()
 
 add_executable(AtvTemperatura AtvTemperatura.c
     aht10.c
-    ssd1306.c)
+    )
 
 pico_set_program_name(AtvTemperatura "AtvTemperatura")
 pico_set_program_version(AtvTemperatura "0.1")
